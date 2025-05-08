@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	font-size: 62.5%;
+}
+
+body {
+	height: 100vh;
+	font-size: 1.6rem;
+	color: #1b1b1b;
+}
+
+.page {
+	/* background-color: red;  */
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	max-width: 57.5rem;
+}
+
+.page header {
+	display: flex;
+	position: relative;
+}
+
+.page header img {
+	width: 100%;
+}
+
+.waves {
+	position: absolute;
+}
+
+main {
+	margin-top: 4rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	padding: 2rem;
+}
+
+.destaques {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.destaques h1 {
+	text-transform: uppercase;
+	font-family: Inter;
+	font-weight: 800;
+	font-size: 3.2rem;
+}
+
+.destaques p {
+	font-family: Inter;
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+
+.bandeiras {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	width: 100%;
+	align-items: center;
+}
+
+.visa {
+	width: 5rem;
+	height: 2.3rem;
+}
+
+.mastercard {
+	width: 4rem;
+	height: 4rem;
+}
+
+.elo {
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+.amex {
+	width: 4rem;
+	height: 4rem;
+}
+
+p {
+	text-align: justify;
+	font-family: Inter;
+	font-weight: 400;
+	line-height: 145%;
+	font-size: 1.4rem;
+}
+
+.marcas {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.general-eletric {
+	width: 2rem;
+	height: 2rem;
+}
+
+.brastemp {
+	width: 7rem;
+	height: 1.8rem;
+}
+
+.electrolux {
+	width: 7rem;
+	height: 1.6rem;
+}
+
+.consul {
+	width: 5rem;
+	height: 1.3rem;
+}
+
+.lg {
+	width: 2rem;
+	height: 2rem;
+}
+
+.mapa {
+	border-radius: 0.8rem;
+	overflow: hidden;
+}
+
+.localizacao {
+	display: flex;
+	flex-direction: row;
+	gap: 0.5rem;
+	align-items: center;
+}
+
+.localizacao p {
+	font-family: Inter;
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+.localizacao img {
+	width: 2rem;
+	height: 2rem;
+}
+
+a {
+	display: flex;
+	flex-direction: row;
+	background-color: #25d366;
+	align-items: center;
+	justify-content: center;
+	padding: 1.25rem;
+	gap: 0.5rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 0.4rem;
+	font-family: Roboto;
+	font-weight: 700;
+	color: #fff;
+}
+
+a img {
+	height: 2.5rem;
+	width: 2.5rem;
+}
+
+.fotos {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+
+.fotos img {
+	border-radius: 0.8rem;
+}
+
+#whatsapp {
+  background-color: #25d366;
+  opacity: 50%;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  position: fixed;
+  right: 0;
+  top: 5rem;
+  border-radius: 0.8rem 0 0 0.8rem;
+}
+
+#whatsapp a {
+  width: 100%;
+  height: 100%;
+}
+
+#whatsapp img {
+  width: 3rem;
+  height: 3rem;
+}
